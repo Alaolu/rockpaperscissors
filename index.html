@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <title>Tas-Kagıt-Makas</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body class="body" id="body1">
+        
+        <h1 class="baslıkyazisi">
+            TAS-KAGIT-MAKAS
+        </h1>
+        
+        <div class="container" id="ilksayfa">
+
+            <div class="soltaraf"><h2 class="idsecyazısı">--Nickname--</h2>
+                <input type="text" onfocus="nicknametıklama()" onblur="nicknameblur()" onchange="nicknameonchange()" id="nickname" class="nicknameinput" placeholder="--Nickname--" value="" required name="nickname" minlength="3" maxlength="15" enabled/>
+                <h4 id="uyarı" class="uyarısözü">OYNAMAYA HAZIR DEGİL!</h4>
+
+            </div>
+            <div class="sagtaraf"><h2 class="rakipsecyazısı">--Rakibini Sec--</h2>
+                <select id="rakipler" class="rakipler" onChange="rakipsecildi();">
+                    <option value="">--</option>
+                    <option id="görkemsecildi" value="görkem" data-foto="url(görkemlogo.jpeg)">Görkem</option>
+                    <option id="cihansecildi" value="cihan" data-foto="url(cihanlogo.jpeg)">Cihan</option>
+                    <option value="cagrı" data-foto="url(cagrılogo.jpeg)" >Cagrı</option>
+                    <option value="alikaan" data-foto="url(alilogo.jpeg)" >AliKaan</option>
+                    <option value="ömer" data-foto="url(ömerlogo.jpeg)" >Ömer</option>
+                    <option value="batu" data-foto="url(batulogo.jpeg)" >Batu</option>
+                    <option value="riyad" data-foto="url(riyadlogo.jpeg)" >Riyad</option>
+                    <option value="hilmi" data-foto="url(hilmilogo.jpeg)" >Hilmi</option>
+                </select>
+                <h4 id="rakipsözü" class="rakibinsözü">Lütfen Bir Rakip Seçiniz!</h4>
+
+            </div>
+            <div class="alttaraf"><button id="oyna" class="oynabutonu" onclick="hazırtusutiklama()">HAZIR</button></div>
+
+
+        </div>
+        
+
+
+
+
+
+
+
+
+
+        
+            <div class="container11" id="ikincisayfa">
+                <h2 class="roundyazısı">5 OLAN KAZANIR!!</h2>
+                <div class="ortasoltaraf11">
+                    <h2  id ="soltarafnicknamee" class="soltarafnickname1"></h2>
+                    <img src="youlogo.png" class="youlogo"/>
+                    <div class="solscoredivi"><h2 id="benimscoree" class="score1"></h2></div>
+                    <div class="taskagıtmakasdivi">
+                        <button id="rockbtn" class="rockbutonu" onclick="tassecimi()"><img class="rockclass" src="rocklogo.png" /></button>
+                        <button id="paperbtn" class="paperbutonu" onclick="kagıtsecimi()"><img class="paperclass" src="paperlogo.png"/></button>
+                        <button id="scissorsbtn" class="scissorsbutonu" onclick="makassecimi()"><img class="scissorsclass" src="scissorslogo.png"/></button>
+
+                    </div>
+                </div>
+    
+    
+                <div class="ortasagtaraf11">
+                    <h2  id="comnamee" class="sagtarafnickname11"></h2>
+                    <div id="comlogoo" class="comlogo"></div>
+                    <div class="sagscoredivi"><h2 id="comscoree" class="score2"></h2></div>
+                    <div id="comchosee" class="sorulogo"></div>
+                </div>
+    
+                <div class="tekrardivi"><button id="tekrarbtn" class="tekrarbutonuclass" onclick="tekrarbasla()">TEKRAR</button>
+                <button id="anasayfabtn" class="anasayfabutonuclass"><a href="index.html" class="anasayfaclass">ANASAYFA</a></button>
+                </div>
+    
+            </div>
+    
+       
+        
+
+
+
+
+
+
+        <script src="javascript.js">
+            
+        
+        </script>
+
+
+        
+    </body>
+    <footer>
+        <span class="telif">&#169; ALAOGLU</span>
+
+
+    </footer>
+
+</html>
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+

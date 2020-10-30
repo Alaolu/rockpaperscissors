@@ -1,0 +1,394 @@
+:root {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+#body1 {
+    width: 100%;
+    height: 95%;
+    position: relative;
+    background : linear-gradient(#D32600 , #160400 );
+    display: block;
+    
+}
+
+.baslıkyazisi {
+    height: 10%;
+    display: block;
+    border: black 5px solid;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+    font-size: 48px;
+    margin: 2% 20%;
+    height: max-content;
+    padding: 1% 0px; 
+    text-shadow: 5px 5px 10px gray;
+    color: #FFBD00;
+}
+
+
+
+
+#ilksayfa {
+    max-width: 100%;
+    height: 80%;
+    position: relative;
+    display: block;
+    margin: 1% 10%;
+    background-image: url(indexfoto.png);
+    background-repeat: repeat-x;
+    background-position: top;
+
+}
+
+.container .soltaraf {
+    width: 50%;
+    height: 70%;
+    position: relative;
+    display: block;
+    visibility: visible;
+    padding: 1% 5%;
+    text-align: center;
+}
+ .sagtaraf {
+     height: 70%;
+     width: 50%;
+     position: absolute;
+     top: 0;
+     right: 0;
+     text-align: center;
+
+ }
+ .idsecyazısı {
+     display: inline-block;
+     border: black solid 3px;
+     position: relative;
+     width: max-content;
+     text-align: center;
+     margin-top: 20%;
+     border-radius: 15px;
+     font-size: 32px;
+     background-color: wheat;
+     color: #870000;
+     text-shadow: 1px 1px 4px gray;
+ }
+ .rakipsecyazısı {
+    display: inline-block;
+    border: black solid 3px;
+    position: relative;
+    width: max-content;
+    text-align: center;
+    margin-top: 18%;
+    border-radius: 15px;
+    font-size: 32px;
+    background-color: wheat;
+    color: #870000;
+    text-shadow: 1px 1px 4px gray;
+ }
+ .nicknameinput {
+     display: block;
+     width: 50%;
+     height: 10%;
+     margin: 8% auto;
+     font-size: 24px;
+     border: black 3px solid;
+     border-radius: 20px;
+     margin-top: 15%;
+     color: #870000;
+     text-shadow: 1px 1px 2px gray;
+     
+ }
+ .nicknameinput:hover{
+    border: black 4px solid;
+    box-shadow: 0 4px 10px rgba(32, 33, 36, .28);
+ }
+ .nicknameinput:focus{
+     border: black 4px solid;
+     outline: none;
+     box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+ }
+ .nicknameinput::placeholder{
+     opacity: 0.6;
+ }
+ .rakipler {
+     display: block;
+     margin: 8% auto;
+     width: 25%;
+     height: 10%;
+     font-size: 24px;
+     border: black 3px solid;
+     border-radius: 20px;
+     margin-top: 12%;
+     color: brown;
+     font-weight: bold;
+
+ }
+ .uyarısözü {
+     font-size: 18px;
+     color: brown;
+ }
+ .rakipler:hover{
+    border: black 4px solid;
+    box-shadow: 0 4px 10px rgba(32, 33, 36, .28);
+ }
+ .rakipler:focus{
+    border: black 4px solid;
+     outline: none;
+     box-shadow: ;
+     box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+     
+ }
+ .rakibinsözü {
+     display: inline;
+     text-align: justify;
+     font-size: 24px;
+     color: #D10000;
+ }
+ .alttaraf {
+     width: 100%;
+     height: 25%;
+     text-align: center;
+ }
+ .oynabutonu {
+     width: 15%;
+     height: 25%;
+     font-size: 36px;
+     border-radius: 50px;
+     color: #4E4040;
+     border: black 3px dotted;
+ }
+ .oynabutonu:hover{
+    width: 16%;
+    height: 28%;
+    font-size: 38px;
+    border-radius: 50px;
+    color: #4E4040;
+    text-shadow: 2px 2px 4px #90A929;
+    border: black 3px solid;
+ }
+
+ footer {
+     text-align: center;
+     color: gray;
+     text-shadow: 2px 2px 4px black;
+ }
+ a {
+     text-decoration: none;
+     color: black;
+ }
+
+
+ #ikincisayfa {
+    max-width: 100%;
+    height: 80%;
+    position: relative;
+    display: block;
+    margin: 0% 10%;
+    background-repeat: repeat-x;
+    background-position: top;
+    display: none;
+}
+.roundyazısı {
+    display: inline-block;
+    height: 6%;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    padding-top: 1%;
+    color: wheat;
+
+}
+.ortasoltaraf11 {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    height: 75%;
+    visibility: visible;
+    text-align: center;
+
+}
+.ortasagtaraf11 {
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+    height: 75%;
+    right: 0px;
+    text-align: center;
+}
+.soltarafnickname1 {
+    display: inline-block;
+    width: 50%;
+    height: 7%;
+    text-align: center;
+    border: black 3px solid;
+    border-radius: 25px;
+    margin-top: 6%;
+    font-style: italic;
+    background : linear-gradient(#D32600 , #A00202 );
+}
+
+.sagtarafnickname11 {
+    display: inline-block;
+    width: 50%;
+    height: 7%;
+    text-align: center;
+    border: black 3px solid;
+    border-radius: 25px;
+    margin-top: 6%;
+    font-style: italic;
+    background : linear-gradient(#D32600 , #A00202 );
+}
+.youlogo {
+    width: 25%;
+    height: 25%;
+    display: block;
+    text-align: center;
+    margin: 0% auto;
+    margin-top: 5%;
+    opacity: 0.8;
+}
+.comlogo {
+    width: 25%;
+    height: 25%;
+    display: block;
+    text-align: center;
+    margin: 0% auto;
+    margin-top: 5%;
+    background-color: brown;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+.solscoredivi {
+    width: 40%;
+    height: 10%;
+    display: block;
+    text-align: center;
+    margin: 0% auto;
+    margin-top: 5%;
+}
+.score1 {
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+}
+.sagscoredivi {
+    width: 40%;
+    height: 10%;
+    display: block;
+    text-align: center;
+    margin: 0% auto;
+    margin-top: 5%;
+}
+.score2 {
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+}
+.taskagıtmakasdivi {
+    width: 85%;
+    height: 25%;
+    display: block;
+    margin: 0% auto;
+    margin-top: 4%;
+}
+.rockbutonu{
+    margin-right: 4%;
+    border-radius: 50px;
+    
+}
+.rockbutonu:hover{
+    border-radius: 20px;
+    width: 154px;
+    height: 154px;
+    border: black 3px solid;
+}
+
+.scissorsbutonu{
+    margin-left: 4%;
+    border-radius: 50px;
+}
+.scissorsbutonu:hover{
+    border-radius: 20px;
+    width: 154px;
+    height: 154px;
+    border: black 3px solid;
+}
+.paperbutonu{
+    border-radius: 50px;
+}
+.paperbutonu:hover {
+    border-radius: 20px;
+    width: 154px;
+    height: 154px;
+    border: black 3px solid;
+}
+#comchosee {
+    width: 125px;
+    height: 125px;
+    margin: 4% auto ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+.tekrardivi{
+    display: block;
+    width: 80%;
+    height: 15%;
+    margin: 0% auto;
+    margin-top: 1%;
+    text-align: center;
+}
+.tekrarbutonuclass {
+    width: 25%;
+    height: 50%;
+    font-size: 36px;
+    text-align: center;
+    border-radius: 25px;
+    margin-right: 5%;
+    display: none;
+    color: brown;
+    text-shadow: 2px 2px 4px gray;
+    border: black 2px solid;
+    box-shadow: 0 4px 10px rgba(32, 33, 36, .28);
+}
+.tekrarbutonuclass:hover{
+    border: black 4px solid;
+    box-shadow: 0 5px 14px rgba(32, 33, 36, .28);
+    text-shadow: 2px 2px 4px black;
+}
+
+.anasayfabutonuclass {
+    width: 15%;
+    height: 30%;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 25px;
+    display: none;
+}
+.anasayfabutonuclass:hover {
+    border: black 4px solid;
+    box-shadow: 0 5px 14px rgba(32, 33, 36, .28);
+}
+
+.anasayfaclass{
+    text-shadow: 2px 2px 4px gray;
+    color: brown;
+}
+
+
+
+
